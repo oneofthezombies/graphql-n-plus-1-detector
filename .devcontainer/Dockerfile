@@ -28,5 +28,6 @@ RUN volta install \
     tsx@4.19.2 \
     typescript@5.6.2
 
+RUN mkdir -p /home/vscode/.config/fish
 RUN echo "alias ll='ls -alF'" >> /home/vscode/.config/fish/config.fish
 RUN echo "functions --erase fish_greeting" >> /home/vscode/.config/fish/config.fish
