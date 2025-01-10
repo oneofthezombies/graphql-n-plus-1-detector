@@ -1,1 +1,1 @@
-# Graphql N+1 Detector
+# GraphQL N+1 Detector
