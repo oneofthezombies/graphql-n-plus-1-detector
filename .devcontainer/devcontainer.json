@@ -32,7 +32,6 @@
         },
         "editor.rulers": [80],
         "terminal.integrated.defaultProfile.linux": "fish",
-        "typescript.enablePromptUseWorkspaceTsdk": true,
         "typescript.inlayHints.enumMemberValues.enabled": true,
         "typescript.inlayHints.functionLikeReturnTypes.enabled": true,
         "typescript.inlayHints.parameterNames.enabled": "all",
@@ -40,8 +39,7 @@
         "typescript.inlayHints.parameterTypes.enabled": true,
         "typescript.inlayHints.propertyDeclarationTypes.enabled": true,
         "typescript.inlayHints.variableTypes.enabled": true,
-        "typescript.inlayHints.variableTypes.suppressWhenTypeMatchesName": true,
-        "typescript.tsdk": "node_modules/typescript/lib"
+        "typescript.inlayHints.variableTypes.suppressWhenTypeMatchesName": true
       }
     }
   },
