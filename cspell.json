@@ -1,3 +1,4 @@
 {
-  "words": ["oneofthezombies"]
+  "words": ["oneofthezombies"],
+  "ignorePaths": [".devcontainer/devcontainer.json"]
 }

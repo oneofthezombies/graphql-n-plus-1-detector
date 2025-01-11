@@ -30,6 +30,7 @@
           "editor.formatOnSave": true
         },
         "editor.rulers": [80],
+        "terminal.integrated.defaultProfile.linux": "fish",
         "typescript.inlayHints.enumMemberValues.enabled": true,
         "typescript.inlayHints.functionLikeReturnTypes.enabled": true,
         "typescript.inlayHints.parameterNames.enabled": "all",
@@ -43,7 +44,7 @@
   },
   "dockerComposeFile": "./compose.yaml",
   "overrideCommand": true,
+  "postAttachCommand": "npm i -ws --include-workspace-root",
   "service": "work",
-  "workspaceFolder": "/work",
-  "postAttachCommand": "npm i -ws --include-workspace-root"
+  "workspaceFolder": "/work"
 }
