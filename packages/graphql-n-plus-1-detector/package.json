@@ -1,3 +1,4 @@
 {
-  "name": "@oneofthezombies/graphql-n-plus-1-detector"
+  "name": "@oneofthezombies/graphql-n-plus-1-detector",
+  "type": "module"
 }
